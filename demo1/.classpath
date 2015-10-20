@@ -23,5 +23,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mpeddaia/.m2/repository/org/jacoco/org.jacoco.agent/0.5.10.201208310627/org.jacoco.agent-0.5.10.201208310627-runtime.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
