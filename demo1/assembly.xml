@@ -13,7 +13,7 @@
 	<fileSets>
 		<fileSet>
 			<directory>src</directory>
-			<outputDirectory>sdqdstargett</outputDirectory>
+			<outputDirectory>targett</outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>

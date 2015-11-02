@@ -83,7 +83,7 @@
 				<configuration>
 					<appendAssemblyId>false</appendAssemblyId>
 					<descriptors>
-						<descriptor>assembly.xml</descriptor>
+						<descriptor>demo1/assembly.xml</descriptor>
 					</descriptors>
 				</configuration>
 			</plugin>
