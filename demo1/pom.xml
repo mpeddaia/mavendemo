@@ -73,7 +73,7 @@
 				<version>2.5.3</version>
 				<configuration>
 					<descriptors>
-						<descriptor>assembly.xml</descriptor>
+						<descriptor>demo1/assembly.xml</descriptor>
 					</descriptors>
 					<!-- <tarLongFileMode>posix</tarLongFileMode> -->
 				</configuration>
