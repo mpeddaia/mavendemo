@@ -3,7 +3,7 @@ package com.cisco1;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SampleExampless {
+public class SampleExamplessTest {
 	
 	@Test
 	   public void test() {
