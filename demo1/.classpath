@@ -24,5 +24,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/mpeddaia/.m2/repository/org/jacoco/org.jacoco.agent/0.5.10.201208310627/org.jacoco.agent-0.5.10.201208310627-runtime.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
