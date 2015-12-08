@@ -14,9 +14,9 @@ public class SampleExamplessTest {
 	      SampleExample ex2 = new SampleExample();
 	      ex2.addInteger(10);
 	      ex2.addInteger(100);
-	      //ex2.addInteger(1000);
+	      ex2.addInteger(1000);
 
-	      Assert.assertNotEquals(ex1.getSize(), ex2.getSize());
+	      Assert.assertEquals(ex1.getSize(), ex2.getSize());
 	   }
 
 }
