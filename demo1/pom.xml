@@ -92,18 +92,18 @@
 					</descriptors>
 				</configuration>
 			</plugin>
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-				jenkins junit 
+				<!--jenkins junit   -->
 				<argLine>
 				${argLine} -javaagent:${basedir}/lib/jmockit-0.999.17.jar
 				</argLine>
 				<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
-			</plugin> -->
-    </plugins>
+			</plugin> 
+			    </plugins>
   </build>
 </project>
