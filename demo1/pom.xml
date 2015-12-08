@@ -13,7 +13,7 @@
   <properties>
   <project.dir>${basedir}</project.dir>
   <project.libdir>${project.dir}/lib</project.libdir>
-  </properties>
+  </Fies>
 
   <dependencies>
     <dependency>
