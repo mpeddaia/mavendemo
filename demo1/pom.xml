@@ -97,13 +97,13 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-				<!--jenkins junit   -->
+				<!-- jenkins junit  -->
 				<argLine>
-				${argLine} -javaagent:${basedir}/lib/jmockit-0.999.17.jar
+				${argLine} -javaagent:${basedir}/src/lib/jmockit-0.999.17.jar
 				</argLine>
 				<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
-			</plugin> 
+			</plugin>
 			    </plugins>
   </build>
 </project>
