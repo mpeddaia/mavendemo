@@ -50,18 +50,15 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.5.10.201208310627</version>
-				<scope>system</scope>
-				<scope>system</scope>
-				<systemPath>${project.libdir}/org.jacoco.agent-0.5.10.201208310627-runtime.jar</systemPath>
 				<configuration>
-					<destFile>${basedir}/target/jacoco.exec</destFile>
-					<dataFile>${basedir}/target/jacoco.exec</dataFile>
+				<destFile>${basedir}/target/jacoco.exec</destFile>
+				<dataFile>${basedir}/target/jacoco.exec</dataFile>
 				</configuration>
 				<executions>
 					<execution>
-					<goals>
-					     <goal>prepare-agent</goal>
-					</goals>
+						<goals>
+				    		 <goal>prepare-agent</goal>
+						</goals>
 					</execution>
 					<execution> 
 						<id>report</id>
