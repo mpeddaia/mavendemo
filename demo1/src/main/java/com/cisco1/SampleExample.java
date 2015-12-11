@@ -1,7 +1,7 @@
 package com.cisco1;
 
 import java.util.List;
-
+//added commits to check fetch(pull) option
 import java.util.ArrayList;
 
 public class SampleExample {
