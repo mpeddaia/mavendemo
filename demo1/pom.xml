@@ -55,11 +55,7 @@
           <target>1.6</target>
         </configuration>
       </plugin>
-      <plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>2.4</version>
-  </plugin>
+      
       
       
       
@@ -118,6 +114,11 @@
 				<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
+			<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>2.4</version>
+  </plugin>
 			
 			
 			    </plugins>
